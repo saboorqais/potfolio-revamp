@@ -1,0 +1,122 @@
+.staggered-list-content {
+  width: 100%;
+  margin: 2rem auto;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.li {
+  width: 49%;
+  margin:2px;
+}
+
+.listItem {
+    margin:4px;
+  width: 100%;
+  cursor: pointer;
+  background-color: #263045;
+}
+.listItemContent {
+    margin:2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+}
+.avatar {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 100px;
+  background-color: grey;
+  margin-right: 2rem;
+}
+.avatarExpanded {
+  width: 8rem;
+  height: 8rem;
+  margin-right: 0;
+  margin-bottom: 1rem;
+}
+.description > p {
+  margin-top: 10px;
+  background-color: #263045;
+  width: 100%;
+ 
+}
+.description > ul {
+  width: 100%;
+  padding-left: 0px;
+}
+.description > ul >p {
+text-align: left;
+width:100%;
+}
+.description > div {
+  background-color: #263045;
+  width: 14rem;
+  border-radius: 6px;
+  height: 0.5rem;
+}
+.description > div:nth-of-type(2) {
+  width: 11rem;
+}
+.description > div:nth-of-type(3) {
+  width: 8rem;
+}
+.description > div + div {
+  margin-top: 1rem;
+}
+.expandedListItem .description {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.expandedListItem {
+  cursor: pointer;
+  background-color: #263045;
+}
+.expandedListItemContent {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.additional-content {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.additional-content > div {
+  opacity: 0;
+  border-radius: 3px;
+  background-color: gray;
+  height: 5rem;
+}
+
+/* content fade in animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animated-in .additional-content > div {
+  animation: fadeIn 0.4s forwards;
+}
+
+.additional-content > div:nth-of-type(2) {
+  animation-delay: 0.15s;
+}
+.additional-content > div:nth-of-type(3) {
+  animation-delay: 0.3s;
+}
+.additional-content > div + div {
+  margin-top: 1rem;
+}
