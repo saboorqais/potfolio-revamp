@@ -93,6 +93,7 @@ const ExpandedListItem = ({
                 )}
                 {video && (
                   <video
+                    playsinline
                     className="video"
                     controls
                     onClick={(event) => {
