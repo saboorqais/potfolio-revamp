@@ -604,6 +604,13 @@ background-color: #5FB4FF;
   margin-bottom: 80px;
   margin-top: -122px;
 }
+@media (max-width: 650px) {
+  .newsletter-bx {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 40px 90px;
+  }
+}
 .newsletter-bx h3 {
   font-weight: 700;
   letter-spacing: 0.5px;
@@ -646,7 +653,8 @@ background-color: #5FB4FF;
 }
 .new-email-bx input {
   width: 100%;
-  color: #121212;
+  height: 40px;
+  color: white;
   font-weight: 500;
   background: transparent;
   border: 0;
@@ -676,3 +684,25 @@ background-color: #5FB4FF;
 }
 
 
+.responsiveSubmit{
+  width: 40%;
+  height: 30px;
+  color: white;
+  font-weight: 500;
+  background: #263045;
+  border: 0;
+  margin: 5px;
+  padding: 0 15px;
+  display: none;
+  border-radius: 5px;
+}
+@media (max-width: 520px) {
+  .new-email-bx button {
+   display: none;
+  }
+}
+@media (max-width: 520px) {
+  .responsiveSubmit{
+   display: block;
+  }
+}
