@@ -93,7 +93,7 @@ const ExpandedListItem = ({
                 )}
                 {video && (
                   <video
-                    playsinline
+                  autoplay muted playsinline preload="auto"
                     className="video"
                     controls
                     onClick={(event) => {
