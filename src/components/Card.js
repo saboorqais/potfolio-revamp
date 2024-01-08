@@ -83,13 +83,22 @@ const ExpandedListItem = ({
                 {image && (
                   <img
                     src={image}
+                    onClick={(event) => {
+                      event.stopPropagation();
+                    }}
                     className="rounded-3"
                     alt="Avatar"
                     style={{ maxWidth: "400px", maxHeight: "400px" }}
                   />
                 )}
                 {video && (
-                  <video className="video"  controls>
+                  <video
+                    className="video"
+                    controls
+                    onClick={(event) => {
+                      event.stopPropagation();
+                    }}
+                  >
                     <source src={video} type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
