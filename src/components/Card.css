@@ -1,3 +1,26 @@
+.video{
+  width: 400px;
+  height: 300px;
+}
+.truncate-text {
+  /* Your default styles for .truncate-text go here */
+  white-space: nowrap; /* Prevents text from wrapping to the next line */
+  overflow: hidden;    /* Hides any overflowing content */
+  text-overflow: ellipsis; /* Adds an ellipsis (...) when text is truncated */
+}
+@media (max-width: 600px) {
+  .truncate-text {
+    max-width: 100%; /* Adjust this if needed */
+    /* Any additional styles specific to the smaller viewport go here */
+  }
+}
+
+@media (max-width: 430px) {
+  .video{
+    width: 300px;
+    height: 200px;
+  }
+}
 .staggered-list-content {
   width: 100%;
 

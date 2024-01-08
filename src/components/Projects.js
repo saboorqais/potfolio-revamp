@@ -56,25 +56,25 @@ export const Projects = () => {
                   }
                 >
                   <h2>Projects</h2>
-            
+
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
                       variant="pills"
                       className="nav-pills mb-5 justify-content-center align-items-center"
                       id="pills-tab"
                     >
-                            <Nav.Item>
-                        <Nav.Link eventKey="first">
+                      <Nav.Item>
+                        <Nav.Link className="truncate-text" eventKey="first">
                           Website Development
                         </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">
+                        <Nav.Link className="truncate-text" eventKey="second">
                           Mobile Application
                         </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">Random Project</Nav.Link>
+                        <Nav.Link className="truncate-text" eventKey="third">Random Project</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content
@@ -85,14 +85,14 @@ export const Projects = () => {
                     >
                       <Tab.Pane eventKey="first">
                         <Row>
-                        <AnimatedList  listData={webProjects}/>
+                          <AnimatedList listData={webProjects} />
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
-                        <AnimatedList listData={mobileProject}/>
+                        <AnimatedList listData={mobileProject} />
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
-                      <AnimatedList listData={randomProjects}/>
+                        <AnimatedList listData={randomProjects} />
                       </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>

@@ -89,7 +89,7 @@ const ExpandedListItem = ({
                   />
                 )}
                 {video && (
-                  <video width="400" height="300" controls>
+                  <video className="video"  controls>
                     <source src={video} type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
