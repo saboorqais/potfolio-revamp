@@ -58,6 +58,7 @@ const ExpandedListItem = ({
   name,
   index,
   onClick,
+  link,
 }) => {
   console.log(description);
   return (
@@ -109,11 +110,8 @@ const ExpandedListItem = ({
                   <ul>
                     <p>
                       Link:
-                      <a href="https://customer-management-nine.vercel.app/">
-                        customer-management-nine.vercel.app
-                      </a>
+                      {link ? <a href={link}>{link}</a> : "NDA Signed"}
                     </p>
-                    <p>Python ,Django ,MERN</p>
                   </ul>
                 </>
               </Flipped>
@@ -156,6 +154,7 @@ export class AnimatedList extends Component {
                     name={item.name}
                     video={item?.video}
                     image={item?.image}
+                    link={item?.link}
                     index={this.state.focused}
                     onClick={this.onClick}
                   />

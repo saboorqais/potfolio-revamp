@@ -1,6 +1,6 @@
 .staggered-list-content {
   width: 100%;
-  margin: 2rem auto;
+
 }
 .list {
   display: flex;
@@ -13,6 +13,16 @@
   width: 49%;
   margin:2px;
 }
+@media (max-width: 1000px) {
+  .list {
+    flex-direction: column;
+    width:100%;
+  }
+  .li {
+    width:100%;
+  }
+}
+
 
 .listItem {
     margin:4px;
