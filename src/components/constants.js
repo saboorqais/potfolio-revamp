@@ -1,15 +1,11 @@
-import crm from "../assets/video/crm.mp4";
-import job from "../assets/video/JobMarketPlace.mp4";
-import iconCrm from "../assets/img/blockchain.png";
-import { FaBitcoin } from "react-icons/fa";
 import { LiaHandsHelpingSolid } from "react-icons/lia";
 import { RiUserSettingsLine } from "react-icons/ri";
 import { TbCoinBitcoin } from "react-icons/tb";
 import { BsFilePerson } from "react-icons/bs";
-import portfolio from "../assets/video/portfolio.mp4";
+ 
 import ebos from "../assets/img/Ebos1.jpeg";
 import { MdOutlineChair } from "react-icons/md";
-import interia from "../assets/video/interia1.mp4";
+
 import { FaPython } from "react-icons/fa";
 import { FaChartLine } from "react-icons/fa6";
 import wolf from "../assets/img/wolf.png";
@@ -17,7 +13,7 @@ import apple from "../assets/img/apple.png";
 import google from "../assets/img/google.png";
 import { TiWeatherCloudy } from "react-icons/ti";
 import weather from '../assets/img/weather.png'
-import wallet from '../assets/video/wallet.mp4'
+
 import { CiWallet } from "react-icons/ci";
 
 export const webProjects = [
@@ -25,14 +21,14 @@ export const webProjects = [
     icon: LiaHandsHelpingSolid,
     name: "CRM",
     description: `Customer Relationship Management Software for beacon tutors pakistan. Focuses on providing a single platform to manage their business and customers.`,
-    video: crm,
+    video: "https://drive.google.com/uc?id=1I1HDdNKARBN0OwXT9sIEDCOLS013oVbJ",
   },
   {
     icon: TbCoinBitcoin,
     name: "Decentralized Job Market",
     description:
       "Cutting-edge decentralized job marketplace that leverages Blockchain to revolutionize way talent is discovered, verified, and connected with employers.",
-    video: job,
+    video: "https://drive.google.com/uc?id=1iKmr1Qh0uvOXQj0pA9RFHeUPsqs4s9Fq",
   },
   {
     icon: RiUserSettingsLine,
@@ -46,7 +42,7 @@ export const webProjects = [
     name: "Portfolio Website",
     description:
       "Our website is a curated collection of projects and experiences, offering a glimpse into the journey of a dedicated professional",
-    video: portfolio,
+    video: "https://drive.google.com/uc?id=1TsmDf3b4ueHK-l0fNv7klUTsbvvQrs5b",
   },
   {
     icon: FaChartLine,
@@ -61,7 +57,7 @@ export const mobileProject = [
   {
     name: "Interia",
     icon: MdOutlineChair,
-    video: interia,
+    video: "https://drive.google.com/uc?id=1sKdZkFuBTS3Md8ynmDkDt_DQ9s9Qx3x4",
     description:
       "A Mobile Application that can help visualize the furniture in your Home and Buy from the Ecomerce Platform",
   },
@@ -88,8 +84,8 @@ export const randomProjects = [
   },
   {
     name: "Crypto Wallet",
-    description:"Created own Crypto wallet that can generate Transaction to send eth to Account and show History of Transactions",
+    description:"Created own Crypto wallet that can generate Transaction to send eth to Account and show History of Transactions with extra added encryption",
     icon: CiWallet,
-    video: wallet,
+    video: "https://drive.google.com/uc?id=1sKdZkFuBTS3Md8ynmDkDt_DQ9s9Qx3x4",
   },
 ];

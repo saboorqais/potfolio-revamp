@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import { Flipper, Flipped } from "react-flip-toolkit";
 
 import "./Card.css";
-import crm from "../assets/video/crm.mp4";
+
 const createCardFlipId = (index) => `listItem-${index}`;
 
 const shouldFlip = (index) => (prev, current) =>
