@@ -73,10 +73,23 @@
   margin-right: 0;
   margin-bottom: 1rem;
 }
+.description {
+  max-width: 100%;
+}
 .description > p {
   margin-top: 10px;
   background-color: #263045;
   width: 100%;
+  white-space: normal; /* Allows the text to wrap to the next line */
+  word-wrap: break-word;
+ 
+}
+.description > ul>p {
+  margin-top: 10px;
+  background-color: #263045;
+  width: 100%;
+  white-space: normal; /* Allows the text to wrap to the next line */
+  word-wrap: break-word;
  
 }
 .description > ul {

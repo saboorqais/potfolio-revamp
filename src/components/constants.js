@@ -50,7 +50,7 @@ export const webProjects = [
     icon: FaChartLine,
     name: "Economic Wolf",
     description:
-      "Website that facilitates the audience to understand the forces shaping Pakistan's economic system with immersive data visualizations and news that go beyond stats and charts to turn their knowledge into action.",
+      "Website that facilitates the audience to understand the forces shaping Pakistan's economic system with immersive data visualizations and news",
     image: wolf,
     link: "https://github.com/saboorqais/EconomicWolf",
   },

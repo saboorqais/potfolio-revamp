@@ -83,9 +83,6 @@ const ExpandedListItem = ({
                 {image && (
                   <img
                     src={image}
-                    onClick={(event) => {
-                      event.stopPropagation();
-                    }}
                     className="rounded-3"
                     alt="Avatar"
                     style={{ maxWidth: "400px", maxHeight: "400px" }}
