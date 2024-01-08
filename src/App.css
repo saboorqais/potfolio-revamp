@@ -685,8 +685,8 @@ background-color: #5FB4FF;
 
 
 .responsiveSubmit{
-  width: 40%;
-  height: 30px;
+  width: 96%;
+  height: 40px;
   color: white;
   font-weight: 500;
   background: #263045;
@@ -694,7 +694,7 @@ background-color: #5FB4FF;
   margin: 5px;
   padding: 0 15px;
   display: none;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 @media (max-width: 520px) {
   .new-email-bx button {
