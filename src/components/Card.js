@@ -89,17 +89,19 @@ const ExpandedListItem = ({
                   />
                 )}
                 {video && (
-                  <video
-                  autoplay muted playsinline preload="auto"
-                    className="video"
-                    controls
-                    onClick={(event) => {
-                      event.stopPropagation();
-                    }}
-                  >
-                    <source src={video} type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
+                  <iframe width="640" height="360" frameborder="0" src={video} allowfullscreen >
+
+                  </iframe>
+                  // <video
+                  //   className="video"
+                  //   controls
+                  //   onClick={(event) => {
+                  //     event.stopPropagation();
+                  //   }}
+                  // >
+                  //   <source src={video} type="video/mp4" />
+                  //   Your browser does not support the video tag.
+                  // </video>
                 )}
               </>
             </Flipped>

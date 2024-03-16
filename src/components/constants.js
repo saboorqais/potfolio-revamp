@@ -13,15 +13,13 @@ import apple from "../assets/img/apple.png";
 import google from "../assets/img/google.png";
 import { TiWeatherCloudy } from "react-icons/ti";
 import weather from "../assets/img/weather.png";
-
 import { CiWallet } from "react-icons/ci";
-
 export const webProjects = [
   {
     icon: LiaHandsHelpingSolid,
     name: "CRM",
     description: `Customer Relationship Management Software for beacon tutors pakistan. Focuses on providing a single platform to manage their business and customers.`,
-    video: "https://drive.google.com/uc?id=1I1HDdNKARBN0OwXT9sIEDCOLS013oVbJ",
+    video: "https://mega.nz/embed/aAoWjD7R#Xg201mFMPlzSkR0jNDyAA1I80SJCKS8Py7EOJ2c0Xvs",
     link: "https://customer-management-nine.vercel.app/",
   },
   {
@@ -29,7 +27,7 @@ export const webProjects = [
     name: "Decentralized Job Market",
     description:
       "Cutting-edge decentralized job marketplace that leverages Blockchain to revolutionize way talent is discovered, verified, and connected with employers.",
-    video: "https://drive.google.com/uc?id=1iKmr1Qh0uvOXQj0pA9RFHeUPsqs4s9Fq",
+    video: "https://mega.nz/embed/HBYDBRZY#1tUlXByo5PK50dELJGyct0uMzhmF3P5uw0ZcttCCVqo",
   },
   {
     icon: RiUserSettingsLine,
@@ -43,7 +41,7 @@ export const webProjects = [
     name: "Portfolio Website",
     description:
       "Our website is a curated collection of projects and experiences, offering a glimpse into the journey of a dedicated professional",
-    video: "https://drive.google.com/uc?id=1TsmDf3b4ueHK-l0fNv7klUTsbvvQrs5b",
+    video: "https://mega.nz/embed/6YxT1BAa#Np7zT4ASXRRSSw0VZxypOr-3tloHhkzoBQIR3-Zd1kU",
     link: "https://saboor.vercel.app/",
   },
   {
@@ -60,7 +58,7 @@ export const mobileProject = [
   {
     name: "Interia",
     icon: MdOutlineChair,
-    video: "https://drive.google.com/uc?id=1sKdZkFuBTS3Md8ynmDkDt_DQ9s9Qx3x4",
+    video: "https://mega.nz/embed/udR30AaJ#4txGYtGVjwebgEex_Re76gVfk_Y47_EO_qxlK7NhSCc",
     link: "https://github.com/saboorqais/Inertia-FrontEnd",
     description:
       "A Mobile Application that can help visualize the furniture in your Home and Buy from the Ecomerce Platform",
@@ -97,6 +95,6 @@ export const randomProjects = [
     description:
       "Created own Crypto wallet that can generate Transaction to send eth to Account and show History of Transactions with extra added encryption",
     icon: CiWallet,
-    video: "https://drive.google.com/uc?id=1sKdZkFuBTS3Md8ynmDkDt_DQ9s9Qx3x4",
+    video: "https://mega.nz/embed/iFhyzbCZ#9J7JvIKHFrtr3w0oCebQeHMm6ipILjuQ9Kh7p7QETqE",
   },
 ];
